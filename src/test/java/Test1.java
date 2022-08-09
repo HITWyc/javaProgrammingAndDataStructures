@@ -11,6 +11,10 @@ public class Test1 {
         String c = String.valueOf(b);
         String d = "12.5";
         double e = Double.parseDouble(d);
+//        String f = "a";
+//        double g = Double.parseDouble(f);
+
+//        System.out.println(g);
 
         System.out.println(a);
         System.out.println(b);
