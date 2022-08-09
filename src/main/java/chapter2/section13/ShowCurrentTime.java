@@ -1,4 +1,4 @@
-package chart2.section13;
+package chapter2.section13;
 
 /**
  * @author wangyc
