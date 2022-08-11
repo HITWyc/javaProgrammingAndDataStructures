@@ -10,8 +10,6 @@ S
 #src/main/java/org/example/Main.java,0\b\0ba1b9c7a4878802f938e331cc2d8a042087ec6b
 7
 pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
-H
-src/test/java/Test1.java,3\5\35f4cb528b1e8b7ec9945752c6aceaf2afe43ec5
 c
 3src/main/java/chapter4/section2/RadChangeOfDeg.java,a\1\a1adef6e662592bb836ad5eaaa3d54907528961d
 `

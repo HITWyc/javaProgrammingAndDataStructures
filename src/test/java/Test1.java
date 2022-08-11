@@ -1,3 +1,6 @@
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  * @author wangyc
  * @version 1.11
@@ -21,5 +24,13 @@ public class Test1 {
         System.out.println(c);
         System.out.println(d);
         System.out.println(e);
+
+        List<Integer> list = new ArrayList<>();
+        for (int i = 0; i < 10; i++) {
+            list.add(i);
+        }
+        list.set(0, 2);
+        System.out.println(list.get(0));
+        System.out.println(list.size());
     }
 }
