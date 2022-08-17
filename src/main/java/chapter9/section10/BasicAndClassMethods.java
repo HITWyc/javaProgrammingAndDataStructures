@@ -1,4 +1,4 @@
-package chapterNine.sectionTen;
+package chapter9.section10;
 
 import org.jetbrains.annotations.Contract;
 import org.jetbrains.annotations.NotNull;

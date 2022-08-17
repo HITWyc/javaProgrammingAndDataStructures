@@ -7,7 +7,7 @@ package chapter10.section5;
  * @data 2022/8/15 19:50
  */
 public class Course {
-    private String courseName;
+    private final String courseName;
     private String[] students = new String[100];
     private int numberOfStudents;
 

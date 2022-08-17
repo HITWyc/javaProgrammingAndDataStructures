@@ -32,5 +32,31 @@ public class Test1 {
         list.set(0, 2);
         System.out.println(list.get(0));
         System.out.println(list.size());
+
+        Integer integer = Integer.valueOf("12");
+        int integer2 = Integer.parseInt("32");
+        System.out.println(integer + "dddd" + integer2);
+        String st1 = "33";
+        integer = Integer.valueOf(st1);
+        System.out.println(integer);
+        integer = Integer.parseInt(st1);
+        System.out.println(integer * 2);
+
+        String st2 = "welcome to java";
+        String st3 = "welcome to java";
+        System.out.println("st2 == st3 " + (st2 == st3));
+
+        String[] tokens = "Java,C?C#,C++".split("[.,:;?]");
+        for (String token : tokens) {
+            System.out.println(token);
+        }
+
+        double str1 = Double.parseDouble("15");
+        System.out.println(str1);
+
+        String str2 = String.valueOf(15);
+        double dou1 = Double.parseDouble(str2);
+        System.out.println(dou1);
+
     }
 }
